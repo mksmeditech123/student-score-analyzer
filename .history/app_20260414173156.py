@@ -2,12 +2,9 @@ def calculate_average(scores):
     return sum(scores) / len(scores)
 
 def grade(avg):
-def grade(avg):
     if avg >= 90:
-        return "A+"
-    elif avg >= 80:
         return "A"
-    elif avg >= 70:
+    elif avg >= 75:
         return "B"
     elif avg >= 60:
         return "C"
