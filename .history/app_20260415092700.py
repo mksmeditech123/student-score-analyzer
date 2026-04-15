@@ -1,8 +1,8 @@
 import streamlit as st
 from utils import calculate_average, get_grade
+from utils import calculate_average, get_grade
 
-
-st.title("🎓 Student Performance Analyzer v2")
+st.title("🎓 Student Performance Analyzer")
 
 st.write("Enter student scores:")
 
